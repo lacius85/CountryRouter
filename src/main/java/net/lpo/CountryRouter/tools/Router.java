@@ -10,7 +10,7 @@ public class Router {
     private static final Logger log = LoggerFactory.getLogger(Router.class);
 
     private static final int MIN_DEEP = 2;
-    public static final int MAX_DEEP = 20; // no longer road than 15 was found in rough test, 20 should be enough
+    public static final int MAX_DEEP = 16; // no longer road than 15 was found in rough test, 16 should be enough
 
     public static List<String> searchRoute(String origin, String destination, Map<String, Set<String>> borders ) {
         // check solitary states
