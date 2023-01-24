@@ -1,0 +1,13 @@
+package net.lpo.CountryRouter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CountryRouterApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CountryRouterApplication.class, args);
+	}
+
+}
